@@ -1,7 +1,7 @@
 
 body {
      margin: 0;
-     background: rgba(158, 211, 134, 0.507);
+     background: rgba(148, 221, 114, 0.507);
      text-align: center;
      font-family: sans-serif;
 }
@@ -11,20 +11,15 @@ body {
      left: 0;
      width: 200px;
      height: 100%;
-     background-color: rgb(26, 24, 24);
+     background-color: rgb(177, 105, 105);
 }
-
 
 .barra{
      color: beige;
+     padding-top: 90px;
+     padding-left: 0;
 
 }
-
-.imagenes{
-     color: #000;
-     
-}
-
 .item{
      padding-bottom:4rem;
      font-family: 'roboto';
@@ -48,6 +43,12 @@ body {
 ul{
      list-style: none;
 }
+.banner{
+     width: 1250px;
+     height: 750px;
+     margin: 100px;
+     margin-top: 0.1%;
+}
 
 .presentacion{
      padding-top: 200px;     
@@ -55,12 +56,13 @@ ul{
 }
 
 .contain {
-     position: relative;
+     position:static;
      width: 320px;
      margin: 100px auto 0 auto;
      perspective: 1000px;
+
 }
-   
+
 .carousel {
      position: absolute;
      width: 100%;
@@ -79,7 +81,7 @@ ul{
      box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
      display: flex;
 }
-   
+
 span {
      margin: auto;
      font-size: 2rem;
