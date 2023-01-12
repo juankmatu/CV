@@ -1,12 +1,11 @@
-function mostrar() {
-     document.getElementById('id').style.display = 'block';
-     /*oculta */
-     document.getElementById('id').style.display = 'none'
-}
+var btnContainer = document.getElementById("menu");
 
+var btns = btnContainer.getElementsByClassName("item");
 
-function ocultar() {
-     document.getElementById('id').style.display = 'none';
-     /*muetra */
-     document.getElementById('id').style.display = 'block'
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+    });
 }

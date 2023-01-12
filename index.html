@@ -7,101 +7,165 @@
     <title>cv</title>
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
     <!--icons bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">    
     <!--css local-->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
 </head>
 <body>
-<!--navbar-->
-  <div class="sidebar">
-      <ul class="barra">
-          <li class="item"><a href="#" >home</a></li>
-          <li class="item"><a href="presentacion.html">presentacion</a></li>
-          <li class="item"><a href="projectos.html">proyectos</a></li>
-          <li class="item"><a href="habilidades.html">habilidades</a></li>
-          <li class="item"><a href="contacto.html">contactos</a></li>
+<!--inicio navbar-->
+<nav class="navbar navbar-expand-lg fondo">
+  <div class="container-fluid menu">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav"id="menu">
+        <ul class="navbar-nav barra" >
+          <li class="nav-link item active"><a href="#" >home</a></li>
+          <li class="nav-link item"><a href="#projectos">proyectos</a></li>
+          <li class="nav-link item"><a href="#presentacion">presentacion</a></li>          
+          <li class="nav-link item"><a href="#habilidades">habilidades</a></li>
       </ul>
-      <div class="imagenes">
-        <ul>
-          <li><a href=""><i class="bi bi-github github"></a></i></li>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="imagenes">
+          <li><a  href=""><i class="bi bi-github github"></a></i></li>
           <li><a href=""><i class="bi bi-instagram instagram"></i></a></li>
           <li><a href=""><i class="bi bi-whatsapp whatsapp"></i></a></li>
         </ul>
       </div>
-  </div>   
-<!--fin navbar-->
-  <div class="container">
-    <div class="row">
-      <div id="prueba">
-        <div >
-          <img src="/imagenes/1052.jpg" class="banner" alt="">
-        </div>
-      </div>
-    </div>  
-  </div> 
-  <!--presentacion-->
-  <div class="container presentacion" id="presentacion">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellat molestias voluptates quam deleniti labore voluptas fugiat omnis beatae qui sint, illum, temporibus ipsum quia. Ratione tempore reiciendis in, minus nisi debitis voluptate exercitationem quisquam laborum odio, tempora nihil eius assumenda fugiat dolorum corrupti ipsum delectus. Vitae quam voluptas voluptatibus aut reiciendis quas sunt labore rem adipisci recusandae delectus, sequi quo aliquam impedit neque commodi libero, ratione consequatur rerum repellendus fugit? Culpa voluptatem earum nihil quia provident consequatur aut consequuntur id veritatis, ea, beatae similique dolores incidunt vitae amet nobis nesciunt, voluptates facilis voluptate fuga corporis tempora fugiat blanditiis distinctio. Incidunt autem ipsa laborum expedita optio ullam earum doloribus modi deleniti? Obcaecati provident, doloribus deleniti facere reiciendis accusantium error amet aut cupiditate repellat, ipsa quas sit omnis praesentium itaque accusamus fugiat vero totam quae! Minima neque blanditiis laborum nihil error odit a cupiditate iste. Repellat possimus autem nemo corporis nesciunt.
+      <button type="button" class="btn contacto" data-bs-toggle="modal" data-bs-target="#contacto">
+        contactanos
+          </button>
+    </div>
   </div>
+</nav>
+<!--fin navbar-->
+<!--banner-->
+  <div class=" container banner">
+    <div class="row">
+    <img src="imagenes/terror.jpg"  alt="banner" id="banner"></div>
+  </div>
+<!--fin banner-->    
+<!--presentacion-->
+  <div class="container" >
+    <div class="row">
+      <div class="col">
+        <h4 class="nombre">DENIS JUAN CARLOS</h4>
+        <img class="avatar" src="imagenes/avatar.jpg" alt="avatar">
+        
+      </div>
+      <div class="col presentacion">
+        <h5>Mi Presentacion</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel quam vero possimus dolore? Doloribus distinctio dolor, exercitationem nulla quos aspernatur voluptatibus atque numquam quidem, esse aliquid? Iure molestiae voluptas corporis quos obcaecati, deleniti ad accusamus cum. Libero, aliquid, inventore sint eius itaque autem provident neque ad nesciunt blanditiis fugiat accusamus minima molestiae mollitia vero ex debitis quasi et aspernatur suscipit sunt corporis optio quaerat! Molestiae blanditiis perferendis tenetur iste nemo possimus aspernatur? Distinctio quibusdam omnis nisi voluptatibus cum. Quos maiores sed voluptatibus numquam nihil maxime assumenda aspernatur eius omnis error at expedita nisi corrupti, minus, exercitationem corporis modi totam.</p>
+      </div>
+    </div>
+  </div>  
 <!--fin de presentacion-->
 <!--nivel d habilidades -->
-<div class="container">
-  <div class="habilidades">
-    <h1 style="color: black;">habilidades <strong>html5</strong></h1>
-    <div class="progress " role="progressbar" aria-label="Animated striped" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-      <div class="progress-bar progress-bar-striped progress-bar-animated html" style="width: 90%">90%</div><h6 class="ms-5">HTML</h6> 
+<div class="container" id="habilidades" >
+  <div class="row">
+    <div class="col">
+      <div class="habilidades">
+        <h1 class="titulo">habilidades html5</h1>
+          <div class="progress " role="progressbar" aria-label="Animated striped" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated html" style="width: 90%">90%</div>
+              <h6 class="ms-5">HTML</h6>
+          </div>
+          <div class="progress " role="progressbar" aria-label="Animated striped " aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped progress-bar-animated css" style="width: 50%">50%</div>
+            <h6 class="ms-5">CSS</h6>
+          </div>
+        <div class="progress " role="progressbar" aria-label="Animated striped " aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated js" style="width: 30%">30%</div>
+          <h6 class="ms-5">JS</h6>
+        </div> 
       </div>
-    <div class="progress " role="progressbar" aria-label="Animated striped " aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-      <div class="progress-bar progress-bar-striped progress-bar-animated css" style="width: 50%">50%</div><h6 class="ms-5">CSS</h6>
-    </div>
-    <div class="progress " role="progressbar" aria-label="Animated striped " aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-      <div class="progress-bar progress-bar-striped progress-bar-animated js" style="width: 30%">30%</div><h6 class="ms-5">JS</h6>
-    </div>
-  </div>
-  
-  <div class="habilidades">
-    <h1 style="color: black;">habilidades <strong>Diseño</strong></h1>
-    <div class="progress " role="progressbar" aria-label="Animated striped" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-      <div class="progress-bar progress-bar-striped progress-bar-animated html" style="width: 10%">10%</div>
+      <!--diseno-->
+    <div class="col">
+      <div class="diseno">
+        <h1 class="titulo">habilidades software</h1>
+        <div class="progress " role="progressbar" aria-label="Animated striped" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated figma" style="width: 75%">75%</div>
+          <h6 class="ms-5">FIGMA</h6>
+          </div>
+        <div class="progress " role="progressbar" aria-label="Animated striped " aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated git" style="width: 25%">25%</div>
+          <h6 class="ms-5">GIT</h6>
+        </div>
+      <div class="progress " role="progressbar" aria-label="Animated striped " aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated sql" style="width: 30%">30%</div>
+        <h6 class="ms-5">SQL</h6>
       </div>
-    <div class="progress " role="progressbar" aria-label="Animated striped " aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-      <div class="progress-bar progress-bar-striped progress-bar-animated css" style="width: 50%">50%</div>
     </div>
-    <div class="progress " role="progressbar" aria-label="Animated striped " aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-      <div class="progress-bar progress-bar-striped progress-bar-animated js" style="width: 30%">30%</div>
-    </div>
-  </div>
-  
-  </div>
-    <!--fin de habilidades-->
-<!--proyectos-->
-<div class="contain">
-  <div class="carousel">
-       <div class="carousel__face"><span></span></div>
-       <div class="carousel__face"><span></span></div>
-       <div class="carousel__face"><span></span></div>
-       <div class="carousel__face"><span></span></div>
-       <div class="carousel__face"><span></span></div>
-       <div class="carousel__face"><span></span></div>
-       <div class="carousel__face"><span></span></div>
-       <div class="carousel__face"><span></span></div>
-       <div class="carousel__face"><span></span></div>
   </div>
 </div>
+
+    <!--fin de habilidades-->
+<!--proyectos-->
+<h2 class="titulo pro">projectos</h2>
+<section class=" container-fluid hero-section">
+  <div class="row"></div>  
+  <div class="card-grid">    
+    <a class="card" href="#">
+      <div class="card__background">
+        <img src="/imagenes/avatar.jpg" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum culpa at, facere iusto iste sit atque commodi numquam totam, odio cum sapiente itaque, quia nulla! Rerum molestiae unde facere maxime.</p>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background">
+      <img src="/imagenes/avatar.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem obcaecati voluptate ipsum eum ducimus, facilis dolorum itaque fugiat ea quibusdam vero sequi deserunt totam necessitatibus nam maxime repudiandae quae voluptates!</p>
+    </div>
+
+    </a>
+    <a class="card" href="#">
+      <div class="card__background">
+        <img src="/imagenes/avatar.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quod consectetur quaerat numquam excepturi dolorum doloremque possimus quis tempore perspiciatis, maxime, qui voluptatibus. Necessitatibus maxime nam at quae voluptatibus corrupti.</p>
+      </div>
+    </li>
+    <a class="card" href="#">
+      <div class="card__background">
+        <img src="/imagenes/avatar.jpg" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam est possimus illum quidem sit labore corporis temporibus autem adipisci tempora ab quae unde consectetur veritatis, ducimus nobis atque doloribus a.</p>
+      </div>
+    </a>
+  </div>
+  <div>
+</section>
+
 <!--fin proyectos-->
 
-<!--formulario-->
-  <form action="">
-    <input type="text">
-    <button type="submit"></button>
-  </form>
-<!--formulario-->
-
-
-
+<!-- Modal -->
+<div class="modal fade" id="contacto" tabindex="-1" aria-labelledby="contacto" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" id="cabeza">
+        <h1 class="modal-title fs-5" id="contacto">Envianos un E-mail</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="cuerpo">
+        <div>
+        <label for="comentario"> ingresa tu comentario</label>
+          <input type="text" placeholder="tu msj"></div>
+          <br>
+          <div>
+        <label for="email">ingresa tu email</label>
+        <input type="email" placeholder="ejemplo@email.com" required></div>
+      </div>
+      <div class="modal-footer" id="fin">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 <!--js pooper-->
