@@ -1,0 +1,35 @@
+@media(min-width: 599px){
+     .titulo{     
+     color: rgb(255, 255, 255);
+     text-align: left; 
+     font-weight:bold; 
+     font-size: 30px; 
+     color: #93be1ca7; 
+     text-shadow: -1px 0 #939cb0, 0 1px #728bc5, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #14716b, 1px 1px #1848b7, 2px 2px #414D68, 3px 3px #2254c8, 4px 4px #072d86, 5px 5px #414D68; 
+     }
+}
+@media(min-width: 599px){
+     .card-grid{
+          grid-template-columns: repeat(2, 1fr); 
+
+     }
+}
+@media only screen and (max-width: 600px) {
+     .card-grid {
+          background-color: rgb(246, 248, 248);
+          padding-bottom: 10px;
+          height: 150px;
+          width: 300px;
+          padding-right: -15px;
+     }
+}
+ 
+@media(min-width: 960px){
+     .card-grid{
+     grid-template-columns: repeat(2, 1fr);
+     padding-left: 10px;
+     
+     
+     }
+}
+ 

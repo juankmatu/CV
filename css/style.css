@@ -7,7 +7,7 @@
 body {
      background: rgb(36,34,69);
      background: linear-gradient(90deg, rgba(36,34,69,1) 0%, rgba(20,20,61,1) 42%, rgba(31,89,106,1) 81%, rgba(18,90,106,1) 95%, rgba(133,142,144,1) 100%);text-align: center;
-     font-family: 'Yeon Sung', cursive;     
+     font-family: 'Yeon Sung', cursive;   
 }
 /*nav bar*/
 .menu{
@@ -26,8 +26,7 @@ ul{
 .imagenes{
      display: flex;
      align-items: center;
-     margin-left: 225px;
-     margin-top: 15px;
+
 }
 .github{
      padding: 15px;
@@ -64,6 +63,9 @@ ul{
 }
 /*fin banner*/
 /*inicio presentacion*/
+#presentacion{
+     padding-top: 50px;
+}
 .nombre{
      margin-top: 10px;
      color: azure; 
@@ -81,9 +83,14 @@ ul{
 }
 /*fin presentacion*/
 /*inicio habilildades*/
+#habilidades{
+     padding-top: 55px;
+     width: 600px;
+}
 
 .habilidades h6{
      color: black;
+     
 }
 .diseno{
      color: black;
