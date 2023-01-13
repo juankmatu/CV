@@ -6,13 +6,17 @@
 }
 body {
      background: rgb(36,34,69);
-     background: linear-gradient(90deg, rgba(36,34,69,1) 0%, rgba(20,20,61,1) 42%, rgba(31,89,106,1) 81%, rgba(18,90,106,1) 95%, rgba(133,142,144,1) 100%);text-align: center;
+     background: linear-gradient(90deg, rgba(36,34,69,1) 0%, rgba(20,20,61,1) 42%, rgba(31,89,106,1) 81%, rgba(18,90,106,1) 95%, rgba(133,142,144,1) 100%);
+     text-align: center;
      font-family: 'Yeon Sung', cursive;   
 }
 /*nav bar*/
+a{
+     text-decoration: none;
+}
 .menu{
-     background: rgb(1, 17, 17);
-     background-color: #df8f8f6c;
+     background: rgba(255, 255, 255, 0);
+     background: linear-gradient(90deg, rgba(36,34,69,1) 0%, rgba(20,20,61,1) 42%, rgba(31,89,106,1) 81%, rgba(18,90,106,1) 95%, rgba(133,142,144,1) 100%);
 }
 .fondo{
      background-color: black;
@@ -41,7 +45,7 @@ ul{
      border: none;
      outline: none;
      padding: 10px 16px;
-     background-color: #df8f8f;
+     background-color: #094970;
 }
 .active, .item:hover {
      background-color: rgba(16, 96, 143, 0.233);
@@ -51,7 +55,7 @@ ul{
      padding-bottom: 25px;
      border-radius: 25%;
      height: 25px;
-     background-color: coral;
+     background-color: rgba(106, 33, 152, 0.541);
 }
 /*fin de navbar*/
 /*inico banner*/
@@ -85,7 +89,7 @@ ul{
 /*inicio habilildades*/
 #habilidades{
      padding-top: 55px;
-     width: 600px;
+     width: 800px;
 }
 
 .habilidades h6{
@@ -118,3 +122,9 @@ ul{
      background-color: cornflowerblue;
 }
 /*fin de habilidades*/
+/* inico de estudios*/
+.estudios{
+     color: azure;
+     padding-top: 25px;
+}
+/*fin de estudio*/

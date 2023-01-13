@@ -23,7 +23,7 @@
 .card{
     list-style: none;
     position: relative;
-    background-color: rgb(27, 73, 114);
+    background-color: rgba(27, 73, 114, 0);
     border: none;
 }
 
